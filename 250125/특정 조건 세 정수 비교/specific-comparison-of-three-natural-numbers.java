@@ -9,11 +9,11 @@ public class Main {
 
         int min = 0;
         //최솟값 구하기
-        if (a <= b && a < c) {
+        if (a <= b && a <= c) {
             min = a;
-        } else if (b <= a && b < c) {
+        } else if (b <= a && b <= c) {
             min = b;
-        } else if (c <= a && c < b) {
+        } else if (c <= a && c <= b) {
             min = c;
         } 
 
