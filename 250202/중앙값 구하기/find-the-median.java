@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        if ((a >= b && a <= c) || (a >= c && a <= b)) {
+            System.out.println(a);  // a가 중간값
+        } 
+        else if ((b >= a && b <= c) || (b >= c && b <= a)) {
+            System.out.println(b);  // b가 중간값
+        } 
+        else {
+            System.out.println(c);  // c가 중간값
+        }
+    }
+}
